@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+#modal {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+:root {
+    font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 0;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    --color-primary: #3880ff;
+    --color-primary-rgb: 56, 128, 255;
+    --color-primary-contrast: #fff;
+    --color-primary-contrast-rgb: 255, 255, 255;
+    --color-primary-dark: #1b52b3;
+    --color-primary-shade: #3171e0;
+    --color-primary-tint: #4c8dff;
+
+    --color-success: #2dd36f;
+    --color-success-rgb: 45, 211, 111;
+    --color-success-contrast: #fff;
+    --color-success-contrast-rgb: 255, 255, 255;
+    --color-success-shade: #28ba62;
+    --color-success-tint: #42d77d;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+}
